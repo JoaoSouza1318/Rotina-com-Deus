@@ -51,15 +51,20 @@
         .mhr{
             height: 1px;
             background-color: rgb(255, 213, 0);
-            margin-left: -13px;
+            margin-left: -45px;
         }
         .mhr2{
             height: 1px;
             background-color: rgb(255, 213, 0);
-            margin-left: -13px;
+            margin-left: -45px;
             margin-top: 30px;
         }
-
+        .mhr3{
+            height: 1px;
+            background-color: rgb(255, 213, 0);
+            margin-left: -45px;
+            margin-top: 30px;
+        }
          .menu{
             margin-left: 180px;
             margin-top: -40px;
@@ -113,17 +118,19 @@
           z-index: 998;
           left: 0px;
           top: 0px;
-          width:388px;
-          height: 300px;
+          width:360px;
+          height: 250px;
           padding-top: 100px;
-          background-color: rgb(196, 196, 196);
+          background-image: linear-gradient(to bottom right, rgb(99, 99, 99) 0%, rgb(109, 107, 107) 25%, grey 50%, rgb(150, 150, 150) 75%, rgb(173, 173, 173) 100%);
           margin-top: -1500px;
           margin-left: 0px;
           transition: all ease .8s;
 
         }
         .menu-faketrigger:checked ~ ul{
-          margin-left: -28.5px;
+            position: absolute;
+            left: 0px;
+        
           margin-top: 0px;
         }
         .menu ul li{
@@ -136,7 +143,7 @@
             transition:  all ease .3s;
             position: absolute;
             top: 90px;
-            left: 160px;
+            left: 135px;
         }
         .menu ul li a:hover{
             color: #ffffff;
@@ -148,11 +155,37 @@
             transition:  all ease .3s;
             position: absolute;
             top: 60px;
-            left: 28px;
+            left: 23px;
         }
         .segundaescrita:hover{
             color: #ffffff;
         }
+        .terceiraescrita{
+            text-decoration: none;
+            color: rgb(255, 215, 20);
+            font-size: 28px;
+            transition:  all ease .3s;
+            position: absolute;
+            top: 120px;
+            left: 4px;
+        }
+        .terceiraescrita:hover{
+            color: #ffffff;
+        }
+        .quartaescrita{
+            text-decoration: none;
+            color: rgb(255, 215, 20);
+            font-size: 28px;
+            transition:  all ease .3s;
+            position: absolute;
+            top: 180px;
+            left: -4px;
+        }
+        .quartaescrita:hover{
+            color: #ffffff;
+        }
+
+      
     </style>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -178,14 +211,13 @@
             <hr class="mhr">
             <li><a href="index.html"><div class="segundaescrita">Agenda</div></a></li>
             <hr class="mhr2">
-            <li><a href="index.html"></a></li>
-            <hr class="mhr">
-            <li><a href="index.html"></a></li>
-            <hr class="mhr">
+            <li><a href="index.html"><div class="terceiraescrita">Devocionais</div></a></li>
+            <hr class="mhr3">
+            <li><a href="index.html"><div class="quartaescrita">Reflexões e ensinamentos</div></a></li>
             </ul>
     </nav>
 
- 
+    <div class="teste"></div>
     <div class="caixatexto"></div>
     </div>
 </body>
