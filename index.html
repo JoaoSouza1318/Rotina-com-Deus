@@ -5,188 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Favicon cruz index/android-chrome-512x512.png" type="image/x-icon">
     <title>Organize sua rotina com Deus</title>
-    <style>
-        .titulo{
-            color: rgb(255, 255, 255);
-            font-family: "Bebas Neue", sans-serif;
-            text-align: center;
-            -webkit-text-stroke: 0.05px black;
-            text-shadow: 0px 2px 2px rgb(116, 116, 116);
-            position: absolute;
-            top: 50px;
-            left: 100px;
-            
-        }
-        .caixatexto{
-            width: 280px;
-            height: 500px;
-            background-color: rgb(255, 255, 255);
-            border-radius: 15px;
-            border: double 3px black;
-            position: absolute;
-            left: 60px;
-            top: 180px;
-        }
-        .fundo{
-            width: 400px;
-            height: 1200px;
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            background-image: linear-gradient(to right, rgb(255, 255, 99)0%,rgb(255, 255, 113)25%,rgb(255, 255, 95)50%,rgb(255, 255, 105)75%  , rgb(255, 255, 149)100%);
-        }
-        .barra{
-            width: 400px;
-            height: 50px;
-            background-color: rgb(255, 215, 20);
-        }
-
-
-         li{
-            list-style-type: none;
-            text-align: justify;
-            font-family: "Bebas Neue", sans-serif;
-            font-size: 180%;
-        }
-        .mhr{
-            height: 1px;
-            background-color: rgb(255, 213, 0);
-            margin-left: -45px;
-        }
-        .mhr2{
-            height: 1px;
-            background-color: rgb(255, 213, 0);
-            margin-left: -45px;
-            margin-top: 30px;
-        }
-        .mhr3{
-            height: 1px;
-            background-color: rgb(255, 213, 0);
-            margin-left: -45px;
-            margin-top: 30px;
-        }
-         .menu{
-            margin-left: 180px;
-            margin-top: -40px;
-        }
-        .menu .menu-faketrigger{
-            display: block;
-            position: absolute;
-            z-index: 1000;
-            width: 35px;
-            height: 30px;
-            opacity: 0;
-            cursor: pointer;
-        }
-
-        .menu .menu-lines{
-          position: absolute;
-          z-index: 999;
-          width: 35px;
-          height: 35px;
-        }
-
-        .menu .menu-lines span{
-          display: block;
-          width: 35px;
-          height: 5px;
-          margin-bottom: 6px;
-          background-color: #ffffff;
-          border-radius: 30px;
-          transition: all ease .2s;
-        }
-        
-
-        .menu .menu-faketrigger:checked ~ .menu-lines span {
-          background-color:  rgb(255, 215, 20);
-        }
-
-        .menu .menu-faketrigger:checked ~ .menu-lines span:nth-child(1){
-          transform-origin: 0% 0%;
-          transform: rotate(45deg) scaleX(1.0);
-        }
-         .menu .menu-faketrigger:checked ~ .menu-lines span:nth-child(2){
-          opacity: 0;
-        }
-         .menu .menu-faketrigger:checked ~ .menu-lines span:nth-child(3){
-          transform-origin: 0% 100% ;
-          transform: rotate(-45deg) scaleX(1.0);
-        }
-
-        .menu ul{
-          position: absolute;
-          z-index: 998;
-          left: 0px;
-          top: 0px;
-          width:360px;
-          height: 250px;
-          padding-top: 100px;
-          background-image: linear-gradient(to bottom right, rgb(99, 99, 99) 0%, rgb(109, 107, 107) 25%, grey 50%, rgb(150, 150, 150) 75%, rgb(173, 173, 173) 100%);
-          margin-top: -1500px;
-          margin-left: 0px;
-          transition: all ease .8s;
-
-        }
-        .menu-faketrigger:checked ~ ul{
-            position: absolute;
-            left: 0px;
-        
-          margin-top: 0px;
-        }
-        .menu ul li{
-            padding: 10px 0px;
-        }
-        .menu ul li a{
-            text-decoration: none;
-            color: rgb(255, 215, 20);
-            font-size: 28px;
-            transition:  all ease .3s;
-            position: absolute;
-            top: 90px;
-            left: 135px;
-        }
-        .menu ul li a:hover{
-            color: #ffffff;
-        }
-        .segundaescrita{
-            text-decoration: none;
-            color: rgb(255, 215, 20);
-            font-size: 28px;
-            transition:  all ease .3s;
-            position: absolute;
-            top: 60px;
-            left: 23px;
-        }
-        .segundaescrita:hover{
-            color: #ffffff;
-        }
-        .terceiraescrita{
-            text-decoration: none;
-            color: rgb(255, 215, 20);
-            font-size: 28px;
-            transition:  all ease .3s;
-            position: absolute;
-            top: 120px;
-            left: 4px;
-        }
-        .terceiraescrita:hover{
-            color: #ffffff;
-        }
-        .quartaescrita{
-            text-decoration: none;
-            color: rgb(255, 215, 20);
-            font-size: 28px;
-            transition:  all ease .3s;
-            position: absolute;
-            top: 180px;
-            left: -4px;
-        }
-        .quartaescrita:hover{
-            color: #ffffff;
-        }
-
-      
-    </style>
+    <link rel="stylesheet" href="CSS/style.css ">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -197,6 +16,7 @@
     <div class="fundo">
     <h1 class="titulo">Planeje sua rotina <br> com o Senhor</h1>
     <div class="barra"></div>
+
 
     <nav class="menu">
       <input type="checkbox" class="menu-faketrigger"/>
@@ -217,8 +37,13 @@
             </ul>
     </nav>
 
-    <div class="teste"></div>
-    <div class="caixatexto"></div>
+    <div class="caixatexto">
+        <p>
+            <div class="introducao">
+            Este é um projeto criado com a intenção de nos dar uma leve ajuda, seja na nossa rotina do dia a dia com o Senhor, ajudando a ver se estamos passando o tempo que deveriamos com Ele, ajudando a sempre tirarmos um tempo com Ele, ou em várias outras ocasiões. Tambem pode nos ajudar com um local para salvar o seus devocionais, e ler eles depois. Há tambem uma area para guardarmos nossas reflexões e lições que recebemos do Espiríto Santo, dos milagres, das revelações, ou até dos devocionais. Vale lembrar que o site foi criado a partir de uma ideia do Espiríto Santo. Teste agora mesmo e só clicar no menu e acessar as demais páginas ! 
+            </div>
+        </p>
+    </div>
     </div>
 </body>
 </html>
