@@ -11,7 +11,7 @@
         }
         .caixatexto{
             width: 280px;
-            height: 400px;
+            height: 420px;
             background-color: rgb(255, 255, 255);
             border-radius: 15px;
             border: double 3px black;
@@ -25,8 +25,6 @@
             font-size: 18px;
             padding-left: 15px;
             padding-right: 15px;
-            padding-top: 7px;
-            padding-bottom: 7px;
         }
         .fundo{
             width: 400px;
