@@ -1041,3 +1041,178 @@
             left: 400px;
 	          margin-top: 350px;
         }
+
+/*abinha3*/
+
+        .quadradin3{
+          width: 20px;
+          height: 40px;
+          background-color: white;
+          border-radius: 0px 10px 10px 0px;
+          box-shadow: 2px 1px 2px black;
+          position: absolute;
+          top: 300px;
+          left: 120px;
+          cursor: pointer;
+        }
+
+        .seta3{
+          width: 15px;
+          height: 15px;
+          position: absolute;
+          top: 12px;
+          left: 3px;
+        }
+         .li1{
+            list-style-type: none;
+            text-align: justify;
+            font-size: 100%;
+            padding: 2px;
+            position: absolute;
+            top: 10px;
+            left: 5px;
+           
+        }
+         .li2{
+            list-style-type: none;
+            text-align: justify;
+            font-size: 100%;
+            padding: 2px;
+            position: absolute;
+            top: 40px;
+            left: 5px;
+           
+        }
+         .li3{
+            list-style-type: none;
+            text-align: justify;
+            font-size: 100%;
+            padding: 2px;
+            position: absolute;
+            top: 70px;
+            left: 5px;
+           
+        }
+         .abinha3{
+            margin-left: 128px;
+            margin-top: 555px;
+        }
+        .abinha3 .abinha3-faketrigger{
+            display: block;
+            position: absolute;
+            z-index: 1000;
+            width: 35px;
+            height: 30px;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .abinha3 ul{
+          position: absolute;
+          z-index: 998;
+          left: 0px;
+          top: 0px;
+          width: 180px;
+          height: 30px;
+          padding-top: 100px;
+          background-color: white;
+          border-radius: 20px;
+          border: double 2px black;
+          margin-top: 520px;
+          margin-left: -240px;
+          transition: all ease .2s;
+
+        }
+        .abinha3-faketrigger:checked ~ ul{
+            position: absolute;
+            left: 400px;
+	          margin-top: 520px;
+        }
+        
+
+/*abinha4*/
+
+        .quadradin4{
+          width: 20px;
+          height: 40px;
+          background-color: white;
+          border-radius: 0px 10px 10px 0px;
+          box-shadow: 2px 1px 2px black;
+          position: absolute;
+          top: 384px;
+          left: 120px;
+          cursor: pointer;
+        }
+
+        .seta4{
+          width: 15px;
+          height: 15px;
+          position: absolute;
+          top: 12px;
+          left: 3px;
+        }
+         .li1{
+            list-style-type: none;
+            text-align: justify;
+            font-size: 100%;
+            padding: 2px;
+            position: absolute;
+            top: 10px;
+            left: 5px;
+           
+        }
+         .li2{
+            list-style-type: none;
+            text-align: justify;
+            font-size: 100%;
+            padding: 2px;
+            position: absolute;
+            top: 40px;
+            left: 5px;
+           
+        }
+         .li3{
+            list-style-type: none;
+            text-align: justify;
+            font-size: 100%;
+            padding: 2px;
+            position: absolute;
+            top: 70px;
+            left: 5px;
+           
+        }
+         .abinha4{
+            margin-left: 128px;
+            margin-top: 800px;
+        }
+        .abinha4 .abinha4-faketrigger{
+            display: block;
+            position: absolute;
+            z-index: 1000;
+            width: 35px;
+            height: 30px;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .abinha4 ul{
+          position: absolute;
+          z-index: 998;
+          left: 0px;
+          top: 0px;
+          width: 180px;
+          height: 30px;
+          padding-top: 100px;
+          background-color: white;
+          border-radius: 20px;
+          border: double 2px black;
+          margin-top: 520px;
+          margin-left: -240px;
+          transition: all ease .2s;
+
+        }
+        .abinha4-faketrigger:checked ~ ul{
+            position: absolute;
+            left: 400px;
+	          margin-top: 520px;
+        }
